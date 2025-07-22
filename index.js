@@ -147,6 +147,12 @@ if (document.title === "Cart") {
       `;
       cart.appendChild(card);
     });
+     document.querySelector(".buy-btn").addEventListener("click", function (e) {
+      e.preventDefault();
+      data = {};
+      localStorage.setItem("bookdata", JSON.stringify(data));
+      window.location.href = "Purchase.html";
+    });
   }
 }
 if (document.title === "Purchase") {
