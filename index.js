@@ -131,7 +131,7 @@ if (document.title === "Product details") {
   });
 }
 if (document.title === "Cart") {
-  const data = JSON.parse(localStorage.getItem("bookdata")) || {};
+  let data = JSON.parse(localStorage.getItem("bookdata")) || {};
   const cart = document.querySelector(".cart-div");
 
   if (Object.keys(data).length === 0) {
@@ -149,7 +149,7 @@ if (document.title === "Cart") {
       `;
       cart.appendChild(card);
     });
-     document.querySelector(".buy-btn").addEventListener("click", function (e) {
+    document.querySelector(".buy-btn").addEventListener("click", function (e) {
       e.preventDefault();
       data = {};
       localStorage.setItem("bookdata", JSON.stringify(data));
