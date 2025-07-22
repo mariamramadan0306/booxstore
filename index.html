@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Boxtore</title>
+    <link rel="stylesheet" href="prac.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Sign-In page</h1>
+      <nav>
+        <ul>
+          <li>name of the company</li>
+          <li>email of the company</li>
+          <li>phone number</li>
+        </ul>
+      </nav>
+      <form action="home.html">
+        <label class="label" style="display: block">First name </label>
+        <input
+          class="fname"
+          type="text"
+          placeholder="First name"
+          style="display: block"
+        />
+        <p class="error0"></p>
+
+        <label class="label" style="display: block">Second name </label>
+        <input
+          class="sname"
+          type="text"
+          placeholder="Second name"
+          style="display: block"
+        />
+        <p class="error1"></p>
+
+        <label class="label" style="display: block">Email</label>
+        <input
+          class="email"
+          type="text"
+          placeholder="Email"
+          style="display: block"
+        />
+        <p class="error2"></p>
+
+        <label class="label" style="display: block">Phone number</label>
+        <input
+          class="phone"
+          type="text"
+          placeholder="Phone number"
+          style="display: block"
+        />
+        <p class="error3"></p>
+
+        <label class="label">Gender:</label>
+        <input type="radio" name="type" class="male" />
+        <label class="label">Male</label>
+        <input type="radio" name="type" class="female" />
+        <label class="label">Female</label>
+        <p class="error4"></p>
+        <br />
+        <input class="submit" type="submit" />
+      </form>
+      <a href="novel1.html">
+        <button class="forget">Forget your password</button>
+      </a>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

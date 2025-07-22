@@ -1,0 +1,77 @@
+body {
+  background-color: #ddd8d1;
+  font-family: arial;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  background-color: #b3bfd1;
+  padding: 40px 60px 50px 60px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.label {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+input {
+  margin-bottom: 10px;
+}
+.fname,
+.sname {
+  width: 200px;
+  height: 30px;
+  border-radius: 13px;
+  border: none;
+  padding-left: 10px;
+}
+.email,
+.phone {
+  width: 420px;
+  height: 30px;
+  border-radius: 13px;
+  border: none;
+  padding-left: 10px;
+}
+.submit,
+.forget {
+  background-color: #6a84a7;
+  border: none;
+  padding: 8px 20px;
+  font-size: 15px;
+  margin-top: 5px;
+  color: rgb(246, 233, 233);
+  border-radius: 8px;
+  transition: opacity 0.2s;
+}
+
+.submit:hover,
+.forget:hover {
+  opacity: 0.5;
+}
+.error-css {
+  color: rgb(184, 45, 45);
+  padding: 2px;
+  margin: 2px;
+}
+.submit {
+  margin-left: 150px;
+}
+.message {
+  background-color: rgb(65, 62, 62);
+  color: white;
+  padding: 12px;
+  opacity: 0.8;
+  border-radius: 2px;
+}
+.fullpage {
+  display: flex;
+  flex-direction: column;
+}

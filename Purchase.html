@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Purchase</title>
+    <link rel="stylesheet" href="Purchase.css" />
+  </head>
+  <body>
+    <div class="fullpage">
+      <div class="container">
+        <h1>Purchase</h1>
+        <form>
+          <div
+            style="
+              display: flex;
+              flex-direction: row;
+              justify-content: space-around;
+            "
+          >
+            <div>
+              <label class="label" style="display: block">First name </label>
+              <input class="fname" type="text" placeholder="First name" />
+              <p class="error0"></p>
+            </div>
+            <div>
+              <label class="label" style="display: block">Second name </label>
+              <input class="sname" type="text" placeholder="Second name" />
+              <p class="error1"></p>
+            </div>
+          </div>
+          <label class="label" style="display: block">Email</label>
+          <input
+            class="email"
+            type="e"
+            placeholder="Email"
+            style="display: block"
+          />
+          <p class="error2"></p>
+
+          <label class="label" style="display: block">Phone number</label>
+          <input
+            class="phone"
+            type="text"
+            placeholder="Phone number"
+            style="display: block"
+          />
+          <p class="error3"></p>
+
+          <br />
+          <button class="submit">Buy Now</button>
+        </form>
+      </div>
+      <div class="mes-container"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

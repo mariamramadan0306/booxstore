@@ -1,0 +1,209 @@
+body {
+  background-color: #f1ebe3;
+  margin: 0;
+  font-family: arial;
+  padding-top: 60px;
+}
+p {
+  margin: 0;
+  font-size: 11px;
+}
+header {
+  background-color: #6a84a7;
+  padding-left: 20px;
+  position: fixed;
+  display: block;
+  right: 0;
+  left: 0;
+  top: 0;
+  height: 65px;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  margin-top: 15px;
+  font-size: 25px;
+}
+.Products-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 30px;
+  margin: 20px 0;
+  background-color: #dad6d1;
+}
+.book-data {
+  border: solid #dad6d1 2px;
+  border-radius: 10px;
+  padding: 17px;
+  margin-left: -85px;
+  margin-right: 100px;
+  background-color: #dad6d1;
+}
+.book-image {
+  border: solid #dad6d1 2px;
+  border-radius: 10px;
+  margin-right: 95px;
+  margin-left: 10px;
+}
+img {
+  margin: 9px;
+  border-radius: 10px;
+  height: 450px;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+.img1 {
+  flex: 1;
+}
+.book-data {
+  flex: 3;
+}
+.book-data input {
+  width: 55px;
+  padding: 6px 0 6px 43px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+}
+.add-to-cart {
+  width: 100px;
+  padding: 4px;
+  border: none;
+  border-radius: 10px;
+  margin-right: 18px;
+  margin-left: 8px;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #9c9489;
+  color: white;
+  transition: opacity 0.2s, color 0.2s, background-color 0.2s;
+}
+button:hover {
+  opacity: 0.7;
+}
+.add-to-cart:active {
+  color: #9c9489;
+  background-color: white;
+}
+.love {
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 3px 6px;
+  color: rgb(186, 48, 48);
+  transition: opacity 0.2s, color 0.2s, background-color 0.2s;
+}
+.love:active {
+  color: white;
+  background-color: rgb(186, 48, 48);
+}
+article {
+  margin-top: 30px;
+  border: solid #d2cdc6 2px;
+}
+.disc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px;
+}
+.art {
+  font-size: 21px;
+  color: rgb(145, 138, 138);
+}
+.imgbook {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-top: 10px;
+  margin-left: 7px;
+  margin-right: 10px;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 7px;
+}
+.logo-name-footer {
+  display: inline;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.Explore {
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  display: block;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 150px;
+  background-color: #7e786c;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+.Explore a {
+  margin: 3px 0;
+  font-size: 15px;
+}
+.email-icon {
+  width: 15px;
+  height: 15px;
+  border-radius: 8px;
+  display: inline;
+  margin: 0;
+}
+.Enter-email {
+  background-color: #e9e0cc;
+  border-radius: 10px;
+  width: 170px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.input-email {
+  display: inline;
+  width: 95px;
+  height: 10px;
+  font-size: 7px;
+  border: none;
+  border-radius: 4px;
+  padding-left: 5px;
+}
+.button-email {
+  display: inline;
+  font-size: 6px;
+  height: 12px;
+  background-color: #b6b1ab;
+  border: none;
+  border-radius: 7px;
+}
+.back {
+  margin-right: 15px;
+  border: none;
+  background-color: #98aac3;
+  color: white;
+  font-weight: bold;
+  margin-top: 70px;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+.the-novel1 {
+  display: flex;
+  flex-direction: column;
+}

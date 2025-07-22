@@ -1,0 +1,237 @@
+body {
+  background-color: #f1ebe3;
+  margin: 0;
+  padding-top: 60px;
+  font-family: arial;
+}
+p {
+  margin: 0;
+  font-size: 15px;
+}
+header {
+  background-color: #6a84a7;
+  padding-left: 20px;
+  position: fixed;
+  display: block;
+  right: 0;
+  left: 0;
+  top: 0;
+  height: 60px;
+  z-index: 1;
+}
+h1 {
+  margin-top: 15px;
+  font-size: 25px;
+}
+h2 {
+  font-style: italic;
+  margin: 0;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  height: 65px;
+  align-items: center;
+}
+.welcome-bar {
+  background-color: #b3bfd1;
+  height: 120px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.welcome-bar p {
+  font-size: 15px;
+  margin-top: 9px;
+}
+.welcome-bar button {
+  margin: 11px 14px;
+  background-color: #899fba;
+  border: none;
+  border-radius: 15px;
+  padding: 3px 8px;
+  color: #e4e8ee;
+  font-size: 12px;
+  transition: background-color 0.05s;
+}
+.welcome-bar button:active {
+  background-color: #d4cbb8;
+}
+.imgbook {
+  width: 50px;
+  border-radius: 50px;
+  margin-top: 10px;
+  margin-left: 7px;
+  margin-right: 10px;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 7px;
+}
+.logo-name-footer {
+  display: inline;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.Explore {
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  display: block;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 150px;
+  background-color: #7e786c;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+.Explore a {
+  margin: 3px 0;
+  font-size: 15px;
+}
+.email-icon {
+  width: 15px;
+  border-radius: 8px;
+  display: inline;
+}
+.Enter-email {
+  background-color: #e9e0cc;
+  border-radius: 10px;
+  width: 170px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.input-email {
+  display: inline;
+  width: 95px;
+  height: 10px;
+  font-size: 7px;
+  border: none;
+  border-radius: 4px;
+  padding-left: 5px;
+}
+.button-email {
+  display: inline;
+  font-size: 6px;
+  height: 12px;
+  background-color: #b6b1ab;
+  border: none;
+  border-radius: 7px;
+}
+.Top-trending-books p,
+.You-may-like p,
+.Other p {
+  font-weight: bold;
+  font-size: 14px;
+}
+.Top-trending-books img,
+.You-may-like img,
+.Other img {
+  width: 100%;
+  height: 320px;
+}
+.Top-trending-books,
+.You-may-like,
+.Other {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 25px;
+  margin-left: 30px;
+}
+@media (max-width: 1000px) {
+  .Top-trending-books,
+  .You-may-like,
+  .Other {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 500px) {
+  .Top-trending-books,
+  .You-may-like,
+  .Other {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.Top-trending-books button,
+.You-may-like button,
+.Other button {
+  margin-left: 2px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 15px;
+  background-color: #a8a193;
+  padding: 5px 20px;
+  color: #f1ebe3;
+}
+button:hover {
+  opacity: 0.8;
+}
+.search-icon {
+  width: 25px;
+  margin: 0;
+  margin-top: 3px;
+}
+.search-bar {
+  height: 25px;
+  border: none;
+  background-color: rgb(248, 246, 246);
+  padding: 5px;
+  flex: 1;
+  min-width: 30px;
+  max-width: 600px;
+}
+.search-btn {
+  padding: 1px;
+  margin-left: -10px;
+  height: 35px;
+  border: none;
+  background-color: rgb(232, 230, 230);
+  width: 30px;
+}
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 100px;
+}
+@media (min-width: 1200px) {
+  .profile {
+    margin-right: 300px;
+  }
+}
+.profile-pic {
+  width: 40px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.cart {
+  border: none;
+  background-color: white;
+  padding: 0px;
+  margin-left: 80px;
+}
+.cart-img {
+  width: 35px;
+  margin-right: 20px;
+}
+.screen {
+  display: flex;
+  flex-direction: column;
+}
